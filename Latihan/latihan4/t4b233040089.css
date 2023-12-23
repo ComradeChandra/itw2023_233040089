@@ -1,7 +1,7 @@
 body {
     font: 16px/28px arial, sans-serif;
     background-color: #eaeaea;
-    background-image: url(img/webb-dark.png);
+    background-image: url(img/Vday4.jpeg);
     color: #333;
 }
 
@@ -19,6 +19,7 @@ body {
 .header .judul {
     font-size: 40px;
     font-weight: bold;
+    text-align: center;
 }
 
 .header ul li {
@@ -40,9 +41,18 @@ body {
 
 .hero {
     height: 280px;
-    background-image: url(img/Hero.png);
+    background-image: url(img/vday1.jpg);
     background-size: cover;
     background-position: 0 -180px;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid lightskyblue;
+}
+
+.hero2 {
+    height: 280px;
+    background-image: url(img/vday2.jpeg);
+    background-size: cover;
+    background-position: 0 -140px;
     border-top: 5px solid salmon;
     border-bottom: 5px solid lightskyblue;
 }
